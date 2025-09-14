@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Sitio Web</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #efeef1;
+            color: #3a07f5;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #0cee17; /* Azul enérgico */
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(18, 20, 19);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffdd57; /* Amarillo suave */
+        }
+
+        /* Secciones */
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #c8f30a;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #111010;
+        }
+
+        /* Galería de imágenes */
+        figure {
+            display: inline-block;
+            margin: 15px;
+            text-align: center;
+        }
+        figure img {
+            border-radius: 10px;
+            border: 3px solid #87cefa; /* Azul claro */
+        }
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            color: #444;
+        }
+
+        /* Video y audio */
+        video, audio {
+            display: block;
+            margin: 20px auto;
+            border: 3px solid #ff7f50; /* Naranja suave */
+            border-radius: 10px;
+        }
+
+        /* Formulario */
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        input:focus, textarea:focus, select:focus {
+            border-color: #4a90e2;
+            outline: none;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357ABD;
+        }
+
+        /* Tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        thead {
+            background-color: #4a90e2;
+            color: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f0f8ff; /* Azul muy claro */
+        }
+        tfoot {
+            background-color: #ffdd57; /* Amarillo suave */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#acerca">Acerca de</a> |
+        <a href="#multimedia">multimedia </a>
+        <a href="#contacto">Contacto</a> |
+        <a href="#horario">Horario</a>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <section id="inicio">
+        <h1>Bienvenidos a mi sitio web </h1>
+        <p>
+            Este sitio web fue creado como práctica de HTML. 
+            Incluye una galería multimedia, un formulario de contacto y una tabla de horarios de ejemplo.
+        </p>
+    </section>
+
+    <!-- Sección Acerca -->
+    <section id="acerca">
+        <h2>Acerca de este sitio</h2>
+        <p>La historia del automóvil es una de las más influyentes en la evolución de la sociedad moderna. 
+            Desde los primeros intentos con vehículos a vapor en el siglo XVIII, el ser humano buscó nuevas formas de transporte autónomo. 
+            En 1886, Karl Benz patentó el Benz Patent-Motorwagen, considerado el primer automóvil moderno con motor de combustión.
+            A comienzos del siglo XX, Henry Ford transformó el panorama al introducir la producción en serie, lo que permitió que los automóviles pasaran de ser un lujo para unos pocos a un medio de transporte accesible para millones. 
+            Con el paso de las décadas, se incorporaron avances en seguridad como frenos hidráulicos, cinturones de seguridad, bolsas de aire, y también mejoras en eficiencia y diseño.
+            En las últimas décadas, el automóvil ha evolucionado hacia la tecnología inteligente y sostenible. Con el auge de los vehículos híbridos y eléctricos, y el desarrollo de autos autónomos, se busca no solo la comodidad del usuario, sino también reducir el impacto ambiental.
+         En conclusión, el automóvil ha pasado de ser una invención experimental a convertirse en un pilar fundamental del transporte y la economía mundial, reflejando el avance tecnológico y las nuevas necesidades de la humanidad.
+            
+            
+    
+            
+       
+        </p>
+    </section>
+
+    <!-- Sección Multimedia -->
+    <section id="multimedia">
+        <h2>Galería Multimedia</h2>
+
+        <figure>
+            <img src="img1.jpg" alt="Imagen 1" width="300">
+            <figcaption>LAMBORGHINI</figcaption>
+        </figure>
+        <figure>
+            <img src="img2.jpg" alt="Imagen 2" width="300">
+            <figcaption>FERRARI</figcaption>
+        </figure>
+        <figure>
+            <img src="img3.jpg" alt="Imagen 3" width="300">
+            <figcaption>ROLLS ROYCE</figcaption>
+        </figure>
+        <figure>
+            <img src="img4.jpg" alt="Imagen 4" width="300">
+            <figcaption>BUGATTI</figcaption>
+        </figure>
+        <figure>
+            <img src="img5.jpg" alt="Imagen 5" width="300">
+            <figcaption>MAYBACH</figcaption>
+        </figure>
+        <figure>
+            <img src="img6.jpg" alt="Imagen 6" width="300">
+            <figcaption>BENTLEY</figcaption>
+        </figure>
+        <figure>
+            <img src="img7.jpg" alt="Imagen 7" width="300">
+            <figcaption>ASTON MARTIN</figcaption>
+        </figure>
+        <figure>
+            <img src="img8.jpg" alt="Imagen 8" width="300">
+            <figcaption>MASERATI</figcaption>
+        </figure>
+        <figure>
+            <img src="img9.jpg" alt="Imagen 9" width="300">
+            <figcaption>PAGANI</figcaption>
+        </figure>
+        <figure>
+            <img src="img10.jpg" alt="Imagen 10" width="300">
+            <figcaption>MCLAREN</figcaption>
+        </figure>
+
+
+        <h3>Video</h3>
+        <video controls width="400">
+            <source src="automovil.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento video.
+        </video>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio.mp3.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento audio.
+        </audio>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br>
+
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea><br>
+
+            <label for="genero">Género:</label><br>
+            <select id="genero" name="genero" required>
+                <option value="">Seleccione...</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección Horario -->
+    <section id="horario">
+        <h2>Horario Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Estudio de HTML</td>
+                    <td>8:00 - 10:00</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Práctica de CSS</td>
+                    <td>10:00 - 12:00</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>JavaScript básico</td>
+                    <td>2:00 - 4:00</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Diseño Responsivo</td>
+                    <td>4:00 - 6:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Proyecto Final</td>
+                    <td>6:00 - 8:00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Horario sujeto a cambios</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+</html>
+
